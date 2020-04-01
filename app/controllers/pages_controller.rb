@@ -3,4 +3,7 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def spenden
+  end
 end
