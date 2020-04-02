@@ -3,4 +3,14 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def spenden
+  end
+
+  def projekte
+  end
+
+  def stiftung
+  end
+
 end
