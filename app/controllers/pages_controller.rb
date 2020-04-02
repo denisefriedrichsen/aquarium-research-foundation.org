@@ -6,4 +6,11 @@ class PagesController < ApplicationController
 
   def spenden
   end
+
+  def projekte
+  end
+
+  def stiftung
+  end
+
 end

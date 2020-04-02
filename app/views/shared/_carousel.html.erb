@@ -11,9 +11,7 @@
         <div class="carousel-caption d-none d-md-block">
           <h1>Projekte</h1>
           <p>Entdecken Sie unsere Projekte mit vielen interessanten Informationen.</p>
-          <%= link_to "#", class: "btn btn-primary" do %>
-            <p>Alle Projekte</p>
-          <% end %>
+          <%= link_to "Alle Projekte", projekte_path, class: "btn btn-primary"%>
         </div>
       </div>
       <div class="carousel-item">
@@ -21,9 +19,7 @@
         <div class="carousel-caption d-none d-md-block">
           <h1>Stiftung</h1>
           <p>Lesen Sie alles über die Stiftung: Ziele, Spenden, Teilnehmer.</p>
-          <%= link_to "#", class: "btn btn-primary" do %>
-            <p>Jetzt informieren</p>
-          <% end %>
+          <%= link_to "Jetzt informieren", stiftung_path, class: "btn btn-primary" %>
         </div>
       </div>
       <div class="carousel-item">
@@ -31,10 +27,8 @@
         <div class="carousel-caption d-none d-md-block">
           <h1>Spenden</h1>
           <p>Um den Meeresraum zu schützen, sind wir auf Ihre Unterstützung angewiesen.</p>
-          <p>Wir freuen uns über jeden Beitrag zu Rettung der unglaublichen Unterwasserwelt.</p>
-          <%= link_to "#", class: "btn btn-primary" do %>
-            <p>Jetzt spenden</p>
-          <% end %>
+          <p>Wir freuen uns über jeden Beitrag zur Rettung der faszinierenden Unterwasserwelt.</p>
+          <%= link_to "Jetzt spenden", spenden_path, class: "btn btn-primary" %>
         </div>
       </div>
     </div>

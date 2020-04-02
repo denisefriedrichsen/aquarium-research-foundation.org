@@ -1,6 +1,6 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+<div class="navbar navbar-expand-sm navbar-transparent navbar-fix">
+  <%= link_to root_path , class: "navbar-brand" do %>
+    <%= image_tag "logo-plain.jpg" %>
     <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,13 +10,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <%= link_to "Stiftung", new_user_session_path, class: "nav-link" %>
+          <%= link_to "Stiftung", stiftung_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Projekte", new_user_session_path, class: "nav-link" %>
+          <%= link_to "Projekte", projekte_path, class: "nav-link" %>
         </li>
          <li class="nav-item">
-          <%= link_to "Spenden", new_user_session_path, class: "nav-link" %>
+          <%= link_to "Spenden", spenden_path, class: "nav-link" %>
         </li>
     </ul>
   </div>

@@ -15,14 +15,20 @@ $headers-font: "Comfortaa", "cursive", "sans-serif";
 // }
 // $my-font: "Font Name";
 
+#main-content {
+  text-align: center;
+}
+
 h1 {
   font-size: 28px;
   font-weight: bold;
+  padding: 10px;
 }
 
 h2 {
   font-size: 22px;
   font-weight: bold;
+  padding: 8px;
 }
 
 h3 {
@@ -31,4 +37,5 @@ h3 {
 
 p {
   font-size: 15px;
+  padding: 5px;
 }
