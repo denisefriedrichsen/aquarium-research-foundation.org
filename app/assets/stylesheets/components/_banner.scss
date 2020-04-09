@@ -1,0 +1,38 @@
+.banner-home {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(asset_path("slider_image_1.jpeg"));
+  width: 100%;
+  height: 600px;
+  margin-top: 0;
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.banner-home-title {
+    padding-top: 160px;
+    margin-left: 80px;
+    p {
+      padding-left: 10px;
+    }
+}
+
+.buttons-home-stiftung, .buttons-home-projekte {
+  width: 45%;
+}
+
+.buttons-home {
+  padding-left: 85px;
+  width: 355px;
+}
+
+.buttons-home-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-home-second {
+  margin-top: 5px;
+  .btn-green {
+  width: 100%;
+}
+}

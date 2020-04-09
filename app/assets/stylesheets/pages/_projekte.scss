@@ -3,14 +3,64 @@
   display: flex;
   justify-content: space-around;
   img {
-  width: 600px;
-  height: 350px;
-  border-radius: 3px;
+  width: 450px;
+  height: 250px;
+  border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  border: #03284E 1px solid;
+  margin-right: 40px;
+  vertical-align: center;
   }
 }
 
 .project-card-title, .project-card-description {
-  text-align: center;
+  text-align: left;
+  margin-top: 10px;
 }
+
+.project-card {
+  color: white;
+  margin-top: 30px;
+  background-color: #03284E;
+  padding: 20px;
+  width: 100%;
+}
+
+// Media queries
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 50px) {
+  .project-card {
+    height: 600px;
+  }
+}
+@media (min-width: 650px) {
+  .project-card {
+    height: 400px;
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .project-card {
+    height: 600px;
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .project-card {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+  }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .project-card {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+  }
+ }

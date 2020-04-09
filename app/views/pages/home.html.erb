@@ -1,5 +1,15 @@
-<%= render 'shared/carousel' %>
-
+<%= render 'shared/banner' %>
 <div class="container-fluid">
 
+<div class="home-categories">
+  <%= link_to projekte_path, class:"home-category-projekte" do %>
+        <h3>Projekte</h3>
+  <% end %>
+    <%= link_to stiftung_path, class:"home-category-stiftung" do %>
+        <h3>Stiftung</h3>
+  <% end %>
+    <%= link_to spenden_path, class:"home-category-spenden" do %>
+        <h3>Spenden</h3>
+  <% end %>
+</div>
 </div>
