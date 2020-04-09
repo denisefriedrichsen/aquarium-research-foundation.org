@@ -25,7 +25,14 @@
                     // Show a success message to the buyer
                     alert('Transaction completed by ' + details.payer.name.given_name + '!');
                 });
-            }
+            },
+
+  style: {
+    layout:  'vertical',
+    shape:   'pill',
+    label:   'paypal',
+    size: 'responsive',
+}
 
 
         }).render('#paypal-button-container');

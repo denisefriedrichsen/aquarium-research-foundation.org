@@ -1,27 +1,36 @@
 // Media queries
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  #paypal-button-container {
-    width: 100%;
+@media (min-width: 50px) {
+  .paypal-buttons {
+    width: 80%;
+  }
+}
+@media (min-width: 650px) {
+  .paypal-buttons {
+    width: 400px;
   }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  #paypal-button-container {
+  .paypal-buttons {
     width: 400px;
   }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  #paypal-button-container {
-    width: 600px;
+  .paypal-buttons {
+    width: 300px;
   }
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  #paypal-button-container {
-    width: 800px;
+  .paypal-buttons {
+    width: 300px;
   }
  }
+
+.paypal-buttons {
+  margin-top: 20px;
+}
