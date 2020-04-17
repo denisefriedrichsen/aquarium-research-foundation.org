@@ -1,19 +1,16 @@
 
 .project-card-image {
-  display: flex;
-  justify-content: space-around;
   img {
-  width: 450px;
-  height: 250px;
-  border-radius: 4px;
+  width: 650px;
+  height: 100%;
+  border-radius: 0;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: #03284E 1px solid;
-  margin-right: 40px;
-  vertical-align: center;
   }
 }
 
 .project-card-title, .project-card-description {
+  padding-left: 40px;
+  padding-top: 50px;
   text-align: left;
   margin-top: 10px;
 }
@@ -22,8 +19,12 @@
   color: white;
   margin-top: 30px;
   background-color: #03284E;
-  padding: 20px;
+  border-radius: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1));
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 // Media queries
@@ -58,7 +59,7 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .project-card {
-    height: 300px;
+    height: 450px;
     display: flex;
     justify-content: space-between;
     vertical-align: center;

@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<%= render 'shared/banner-projekte' %>
 
   <div class="projekte">
 
@@ -15,14 +15,12 @@
             <p><strong>Zeitraum:</strong> 3 Monate</p>
             <p><strong>Ort:</strong> Helgoland</p>
             <p><strong>Forscher:</strong> Dr. Emanuel Hensel</p>
+            <%= link_to "Mehr Infos", stiftung_path, class: "btn btn-primary" %>
         </div>
       </div>
     </div>
 
     <div class="project-card">
-      <div class="project-card-image">
-        <img src="assets/hydrophone-knurrhaehne.jpeg" alt="Hydrophonen & Knurrhähnen">
-      </div>
       <div class="project-card-information">
         <div class="project-card-title">
           <h3>Hydrophonen & Knurrhähnen</h3>
@@ -32,7 +30,11 @@
             <p><strong>Zeitraum:</strong> 3 Monate</p>
             <p><strong>Ort:</strong> Helgoland</p>
             <p><strong>Forscher:</strong> Dr. Emanuel Hensel</p>
+            <%= link_to "Mehr Infos", stiftung_path, class: "btn btn-primary" %>
         </div>
+      </div>
+      <div class="project-card-image">
+        <img src="assets/hydrophone-knurrhaehne.jpeg" alt="Hydrophonen & Knurrhähnen">
       </div>
     </div>
 

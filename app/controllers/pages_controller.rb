@@ -13,4 +13,10 @@ class PagesController < ApplicationController
   def stiftung
   end
 
+  def datenschutz
+  end
+
+  def impressum
+  end
+
 end
