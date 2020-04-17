@@ -1,0 +1,21 @@
+.banner-spenden {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(asset_path("slider_image_3.jpeg"));
+  width: 100%;
+  height: 600px;
+  margin-top: 0;
+  background-size: cover;
+  color: white;
+}
+
+.banner-spenden-title {
+  text-align: center;
+  padding-top: 160px;
+}
+
+.buttons-spenden-second {
+  display: flex;
+  justify-content: space-around;
+  .btn-green {
+  width: 20%;
+}
+}
