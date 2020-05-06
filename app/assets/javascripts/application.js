@@ -15,5 +15,3 @@
 //= require turbolinks
 //= require_tree .
 //= require cookies_eu
-
-= require font-awesome-sprockets
