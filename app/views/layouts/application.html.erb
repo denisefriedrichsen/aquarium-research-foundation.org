@@ -9,7 +9,7 @@
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= favicon_link_tag 'logo-plain.jpg', sizes: "100x100"%>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <%= stylesheet_pack_tag 'application', media: 'all' %>
   </head>
   <body>
     <%= render 'shared/navbar' %>
@@ -17,7 +17,6 @@
       <%= yield %>
     <%= render 'shared/footer' %>
     <%= javascript_include_tag 'application' %>
-
     <%= javascript_pack_tag 'application' %>
     <%= render 'cookies_eu/consent_banner', link: '/datenschutz', target: '_blank' %>
   </body>
