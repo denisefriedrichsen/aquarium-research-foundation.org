@@ -9,12 +9,21 @@
   width: 100%;
   margin: 20px 0 0 0;
 }
+
+.footer-information {
+   display: flex;
+}
+
+.footer-information a {
+  color: #24215E;
+}
+
 .footer-links {
   align-items: center;
 }
 
 .footer-links i {
-  color: black;
+  color: #24215E;
 }
 
 // .footer-links a {
