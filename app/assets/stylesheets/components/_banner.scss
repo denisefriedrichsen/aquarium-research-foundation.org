@@ -1,7 +1,7 @@
 .banner-home {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(asset_path("slider_image_1.jpeg"));
   width: 100%;
-  height: 600px;
+  height: 00px;
   margin-top: 0;
   background-size: cover;
   color: white;
@@ -20,11 +20,6 @@
   width: 44%;
 }
 
-.buttons-home {
-  padding-left: 85px;
-  width: 356px;
-}
-
 .buttons-home-first {
   display: flex;
   justify-content: space-between;
@@ -35,4 +30,27 @@
   .btn-green {
   width: 100%;
 }
+}
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Larg to Extra large devices (large desktops, 1200px and up)
+@media (min-width: 992px) {
+  .buttons-home {
+    padding-left: 85px;
+    width: 300px;
+  }
 }
