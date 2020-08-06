@@ -9,11 +9,11 @@
 }
 
 .banner-home-title {
-    padding-top: 160px;
-    margin-left: 80px;
-    p {
+  padding-top: 160px;
+  margin-left: 80px;
+  p {
       padding-left: 10px;
-    }
+  }
 }
 
 .buttons-home-stiftung, .buttons-home-projekte {
@@ -29,28 +29,5 @@
   margin-top: 5px;
   .btn-green {
   width: 100%;
-}
-}
-
-
-// Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-}
-
-// Larg to Extra large devices (large desktops, 1200px and up)
-@media (min-width: 992px) {
-  .buttons-home {
-    padding-left: 85px;
-    width: 300px;
   }
 }

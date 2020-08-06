@@ -7,5 +7,8 @@ Rails.application.routes.draw do
   get 'stiftung' => 'pages#stiftung', as: :stiftung
   get 'datenschutz' => 'pages#datenschutz', as: :datenschutz
   get 'impressum' => 'pages#impressum', as: :impressum
+  get 'kontakt' => 'pages#kontakt', as: :kontakt
+  get 'agb' => 'pages#agb', as: :agb
+  get 'aquarium' => 'pages#aquarium', as: :aquarium
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
