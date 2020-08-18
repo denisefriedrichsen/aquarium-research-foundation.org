@@ -10,7 +10,7 @@ gem 'cookies_eu'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.1.0.0'
-gem 'webpacker', '~> 5.1'
+gem 'webpacker', '~> 5.2', '>= 5.2.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
