@@ -5,11 +5,14 @@
   margin-top: 0;
   background-size: cover;
   color: white;
+  margin-bottom: 30px;
 }
 
 .banner-projekte-title {
-  text-align: center;
   padding-top: 160px;
+  h1, p {
+    text-align: center !important;
+  }
 }
 
 .buttons-projekte-second {

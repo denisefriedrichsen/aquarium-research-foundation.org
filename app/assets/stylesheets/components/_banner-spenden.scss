@@ -5,17 +5,17 @@
   margin-top: 0;
   background-size: cover;
   color: white;
+  margin-bottom: 30px;
 }
 
 .banner-spenden-title {
-  text-align: center;
+  h1, p {
+    text-align: center !important;
+  }
   padding-top: 160px;
 }
 
 .buttons-spenden-second {
   display: flex;
   justify-content: space-around;
-  .btn-green {
-  width: 20%;
-}
 }
