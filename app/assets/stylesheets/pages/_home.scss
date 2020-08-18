@@ -1,9 +1,13 @@
+.description {
+    text-align: center !important;
+}
+
 .home-category-spenden {
   display: flex;
   height: 200px;
   text-decoration: none;
   color: white;
-  text-align: center;
+  text-align: center !important;
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -27,7 +31,7 @@
   display: flex;
   height: 200px;
   color: white;
-  text-align: center;
+  text-align: center !important;
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -45,7 +49,7 @@
   height: 200px;
   display: flex;
   color: white;
-  text-align: center;
+  text-align: center !important;
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -58,11 +62,29 @@
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(asset_path("slider_image_1.jpeg"));
 }
 
-.eroeffnungstext .wir-ueber-uns .persoenliches-motiv{
+.eroeffnungstext, .wir-ueber-uns, .persoenliches-motiv {
   margin-top: 40px;
-  text-align: justify;
 }
 
+.bild-vorstand {
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(asset_path("bild_vorstand.jpg"));
+}
+
+.bild-vorstand-wibke {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(asset_path("bild_vorstand_wibke_kleiner.jpeg"));
+  background-size: cover;
+}
 
 // Specific CSS for your home-page
 .home-categories {

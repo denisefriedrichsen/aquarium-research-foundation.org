@@ -5,7 +5,9 @@
   margin-top: 0;
   background-size: cover;
   color: white;
-  text-align: left;
+  h1, p {
+    text-align: left !important;
+  }
 }
 
 .banner-home-title {
@@ -16,13 +18,19 @@
   }
 }
 
-.buttons-home-stiftung, .buttons-home-projekte {
-  width: 44%;
+.buttons-home {
+  width: 300px;
+  margin-left: 90px;
 }
 
-.buttons-home-first {
-  display: flex;
-  justify-content: space-between;
+.button-home-projekte {
+  width: 38%;
+  height: 35px;
+}
+
+.button-home-stiftung {
+  width: 60%;
+  height: 35px;
 }
 
 .buttons-home-second {
