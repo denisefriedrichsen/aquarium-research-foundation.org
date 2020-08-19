@@ -9,7 +9,7 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'cookies_eu'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails'
-gem 'bootstrap-sass', '~> 3.1.0.0'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.12.0'
 
