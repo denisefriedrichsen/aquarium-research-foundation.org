@@ -18,11 +18,11 @@
 }
 
 .navbar-fix .navbar-collapse {
-  flex-grow: 0;
+  flex-grow: 0 !important;
   background-color: white;
 }
 
-.navbar-fix .navbar-brand img {
+.navbar-brand img {
   width: 40px;
 }
 
